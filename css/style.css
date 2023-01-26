@@ -1,0 +1,425 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Responsive  Landing Page Template  
+    Template URI:
+    Description: This is html5 template
+    Author: 
+    Author URI: 
+    Version: 2
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Template default css
+    2. Header Section
+    3. Slider Section
+    4. Service Section 
+    5. About Section
+    6. Career Section
+    7. Testimonials Section
+    8. Subscribe Section 
+    9. Pricing Section
+    10. Counter Section
+    11. Footer Section
+    12. Scrollup
+    13. Blog details
+    
+    
+-----------------------------------------------------------------------------------*/
+
+
+/* 1.---------------------------------------------
+                Template default css
+------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    color: #000000;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000000;
+}
+
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+a:focus,
+.btn:focus,
+.button:focus,
+select:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.overflow_x {
+    overflow-x: hidden;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.slick-active:focus {
+    outline: 0;
+}
+
+h1{
+    font-size: 88px;
+    color: aquamarine;
+
+}
+:root{
+    --yellow:#FFA836;
+    --hoverYellow:#c06d00;
+    --white:#e7e7e7;
+    --black:#000000;
+    --darkHalkeBlue:#3e76c0;
+    --darkBlue:#26284E;
+    --ShadowDarkBlue:#4b4b4bc9;
+    --navBorder:#3c3f75c0;
+    --footer:#17182c;
+}
+:root{
+    --fontOne:'Odibee Sans', cursive;
+    --fontTwo:'Mulish', sans-serif;
+}
+/* 2.-------------------------------------------
+                    Heder Section
+-----------------------------------------------*/
+/* 2.-------------------------------------------
+                    Navbar Section
+-----------------------------------------------*/
+nav{
+    background: transparent !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    padding: 0 !important;
+    border-bottom: 1px solid var(--navBorder);
+}
+nav ul li a{
+    display: inline-block;
+    font-family: var(--fontTwo);
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--white) !important;
+    padding: 20px 20px !important;
+    position: relative;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+
+}
+nav ul li a:hover{
+    color: var(--yellow) !important;
+}
+nav ul li a::after{
+    width: 0%;
+    height: 1px;
+    background: var(--yellow);
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    /* transform: translate(-50%,-50%); */
+    content: '';
+    z-index: -1;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+    /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+
+}
+nav ul li a:hover:after{
+    width: 100%;
+    height: 1px;
+}
+/* 3.-------------------------------------------
+                    Banner Section
+-----------------------------------------------*/
+#banner_section{
+    background: var(--darkBlue);
+    padding-top: 160px;
+    padding-bottom: 150px;
+    position: relative;
+}
+#banner_section .banner_text h1 span{
+    display: block;
+    color: var(--yellow);
+}
+#banner_section .banner_text h1{
+    font-family: var(--fontTwo);
+    font-size: 72px;
+    font-weight: 900;
+    color: var(--white);
+    padding-bottom: 25px;
+}
+#banner_section .banner_text p{
+    font-family: var(--fontTwo);
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--white);
+    text-transform: capitalize;
+}
+#banner_section .banner_img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    text-align: right;
+}
+#banner_section .banner_img span{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%,-50%);
+    background: var(--yellow);
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    z-index: -1;
+    -webkit-transform: translate(0%,-50%);
+    -moz-transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+    -o-transform: translate(0%,-50%);
+}
+#banner_section .banner_img img{
+    width: 120%;
+    display: block;
+    margin-left: auto;
+}
+#banner_section .banner_form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 20px 40px;
+
+}
+#banner_section .banner_form label{
+    font-family: var(--fontTwo);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--darkBlue);
+    padding-right: 10px;
+    position: relative;
+}
+/*  */
+#banner_section .banner_form input{
+    width: 58%;
+    border: 1px solid #FFA836;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 10px;
+    font-family: var(--fontTwo);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--darkBlue);
+    height: 56px;
+}
+#banner_section .banner_form input:focus{
+    border: 1px solid var(--darkBlue) !important;
+    outline: 0;
+    box-shadow: none;
+}
+#banner_section .banner_form button{
+    width: 8rem;
+    height: 56px;
+    background: var(--yellow);
+    color: var(--darkBlue);
+    font-family: var(--fontTwo);
+    border: 1px solid var(--yellow);
+    font-weight: 400;
+    margin-left: -18px;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+}
+#banner_section .hoverYellow button:hover{
+    background: var(--darkBlue);
+    color: var(--darkBlue);
+    border-color: var(--hoverYellow);
+}
+#banner_section .card{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    width: 56%;
+    transform: translate(-50%,50%);
+    -webkit-transform: translate(-50%,50%);
+    -moz-transform: translate(-50%,50%);
+    -ms-transform: translate(-50%,50%);
+    -o-transform: translate(-50%,50%);
+    box-shadow: 0 0 250px 0 var(--ShadowDarkBlue);
+}
+/* 4.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 5.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 6.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 7.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 8.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 9.-------------------------------------------
+                    Footer Section
+-----------------------------------------------*/
+footer{
+    background: var(--footer);
+    padding: 50px 0;
+}
+footer .footer_quick_link {
+    padding-left: 150px !important;
+}
+footer .footer_logo .logo img{
+   width: 50px;
+   display: block;
+}
+footer .footer_logo p{
+    font-family: var(--fontTwo);
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.7;
+    margin-top: 15px;
+}
+
+footer .footer_logo .icon ul{
+    margin-top: 40px;
+}
+footer .footer_logo .icon ul li{
+   display: inline-block;
+}
+footer .footer_logo .icon ul li a{
+   display: inline-block;
+   margin-right: 20px;
+   width: 40px;
+   height: 40px;
+   border: 1px solid var(--darkHalkeBlue);
+   text-align: center;
+   line-height: 40px;
+   border-radius: 100%;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   -ms-border-radius: 100%;
+   -o-border-radius: 100%;
+   color: var(--white);
+}
+footer .footer_quick_link h2{
+    font-family: var(--fontTwo);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white);
+    padding-bottom: 20px;
+    margin-top: 60px;
+}
+footer .footer_quick_link ul li a{
+    font-family: var(--fontTwo);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--white);
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+    margin-bottom: 10px;
+}
+footer .footer_quick_link ul li a:hover{
+    color: var(--yellow);
+}
