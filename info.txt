@@ -1,3 +1,5 @@
 font-family: 'Mulish', sans-serif;
 
 font-family: 'Odibee Sans', cursive;
+
+font-family: 'Poppins', sans-serif;

@@ -66,32 +66,34 @@ $(function () {
   
     // ======Slick Slider===== //
 
-//     $('.').slick({
-//         dots: false,
-//         infinite: true,
-//         autoplay: true,
-//         arrows: false,
-//         autoplaySpeed: 1000,
-//         speed: 1300,
-//         slidesToShow: 3,
-//         slidesToScroll: 1,
-//         responsive: [
-//             {
-//                 breakpoint: 1024,
-//                 settings: {
-//                     slidesToShow: 2,
-//                     slidesToScroll: 1,
-//                 }
-//     }, {
-//                 breakpoint: 768,
-//                 settings: {
-//                     slidesToShow: 1,
-//                     slidesToScroll: 1,
-//                 }
-//     }
-//   ]
+    $('.testimonial_slider').slick({
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        prevArrow:'<i class="fa-solid fa-angle-right prev"></i>',
+        nextArrow:'<i class="fa-solid fa-angle-left next"></i>',
+        arrows: true,
+        autoplaySpeed: 1300,
+        speed: 1300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+    }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+    }
+  ]
 
-//     });
+    });
 
 
 
