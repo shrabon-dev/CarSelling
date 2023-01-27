@@ -1,0 +1,55 @@
+:root{
+    --yellow:#FFA836;
+    --hoverYellow:#c06d00;
+    --white:#e7e7e7;
+    --halfOpacityWhite:#e7e7e7a9;
+    --black:#000000;
+    --darkHalkeBlue:#3e76c0;
+    --darkBlue:#26284E;
+    ----ShadowDarkBlue:#4b4b4b62;
+    --navBorder:#3c3f75c0;
+    --footer:#17182c;
+    --black:#313131;
+    --border:#cacaca;
+}
+:root{
+    --fontOne:'Odibee Sans', cursive;
+    --fontTwo:'Mulish', sans-serif;
+    --fontThree: 'Poppins', sans-serif;
+}
+.title{
+    text-align: center;
+}
+.title h6{
+    display: inline-block;
+    width: auto;
+    font-family: var(--fontTwo);
+    font-size: 38px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    color: var(--darkBlue);
+    position: relative;
+    margin-bottom: 100px;
+}
+.title h6::after{
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+    content: url('../images/type/car3.png');
+}
+.auction_sheet h1{
+    font-size:46px !important;
+    width: 100%;
+    text-align: center;
+}
+#verifyAuctionSheet{
+    padding: 150px 0;
+}
+.card-shadow{
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.2);
+border-radius: 10px;
+}
