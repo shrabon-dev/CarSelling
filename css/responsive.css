@@ -1,0 +1,162 @@
+/* ===================================
+           Mobile Mode
+====================================== */
+
+@media (min-width:300px) and (max-width:575px) {
+
+    .navbar-toggler:focus{
+        outline: none  !important;
+        border: 1px solid #ffffff;
+        box-shadow:  none !important;
+    }
+    .navbar-toggler-icon img{
+        width: 30px;
+    }
+    #banner_section .banner_text h1{
+        font-size: 52px;
+        padding-bottom: 10px;
+    }
+    .contact_page{
+        padding: 60px 0 20px 0!important;
+    }
+    .contact_heading h1{
+        font-size: 28px !important;
+        padding-bottom: 0;
+    }
+    #banner_section .banner_text p{
+         padding-bottom: 25px;
+    }
+    #banner_section{
+        text-align: center;
+        padding: 100px 0;
+        padding-bottom: 150px;
+    }
+    #banner_section .banner_img{
+             margin-top: 50px;
+    }
+    #banner_section .banner_img img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #banner_section .banner_img span{
+        width: 250px;
+        height: 250px;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        -webkit-transform: translate(50%,-50%);
+        -moz-transform: translate(50%,-50%);
+        -ms-transform: translate(50%,-50%);
+        -o-transform: translate(50%,-50%);
+
+    }
+    #banner_section .mobile_card{
+      width: 100% !important;
+    }
+    #banner_section .banner_form{
+        padding: 10px 5px;
+    }
+    #banner_section .banner_form label{
+        font-size: 12px;
+    }
+    #banner_section .banner_form input{
+        font-size: 12px;
+    }
+    footer .footer_quick_link {
+        padding-left: 0px !important;
+    }
+}
+
+
+/* ===================================
+           Tablet Mode
+====================================== */
+
+@media (min-width:576px) and (max-width:767px) {
+    #banner_section{
+        padding: 100px 0;
+        padding-bottom: 150px;
+    }
+    #banner_section .banner_img{
+        margin-top: 50px;
+    }
+    #banner_section .banner_img img{
+        width: 100%;
+    }
+    .navbar-toggler:focus{
+        outline: none  !important;
+        border: 1px solid #ffffff;
+        box-shadow:  none !important;
+    }
+    .navbar-toggler-icon img{
+        width: 30px;
+    }
+    #banner_section .banner_text h1{
+        font-size: 34px;
+        line-height: 1.5;
+        padding-bottom: 0px;
+    }
+    #banner_section .banner_img span{
+        width: 200px;
+        height: 200px;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        -webkit-transform: translate(50%,-50%);
+        -moz-transform: translate(50%,-50%);
+        -ms-transform: translate(50%,-50%);
+        -o-transform: translate(50%,-50%);
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    #banner_section .mobile_card{
+        width: 80% !important;
+    }
+    #banner_section .banner_form label{
+        font-size: 12px;
+    }
+    #banner_section .banner_form input{
+        font-size: 12px;
+    }
+    footer .footer_logo .icon ul li a{
+        margin-bottom: 10px;
+    }
+    footer .footer_quick_link {
+        padding-left: 30px !important;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    #banner_section{
+        padding-top: 140px;
+        padding-bottom: 130px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    #banner_section .banner_text h1{
+        font-size: 42px;
+        line-height: 1.5;
+        padding-bottom: 0px;
+    }
+    #banner_section .banner_img span{
+        width: 250px;
+        height: 250px;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        -webkit-transform: translate(50%,-50%);
+        -moz-transform: translate(50%,-50%);
+        -ms-transform: translate(50%,-50%);
+        -o-transform: translate(50%,-50%);
+    }
+    #banner_section .banner_form label{
+        font-size: 12px;
+    }
+    #banner_section .banner_form input{
+        font-size: 12px;
+    }
+    footer .footer_quick_link {
+        padding-left: 30px !important;
+    }
+}
