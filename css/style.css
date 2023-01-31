@@ -139,7 +139,7 @@ h1{
     --black:#000000;
     --darkHalkeBlue:#3e76c0;
     --darkBlue:#26284E;
-    --ShadowDarkBlue:#4b4b4bb9;
+    --ShadowDarkBlue:#4b4b4b62;
     --navBorder:#3c3f75c0;
     --footer:#17182c;
     --black:#313131;
@@ -251,8 +251,7 @@ nav ul li a:hover:after{
 -----------------------------------------------*/
 #banner_section{
     background: var(--darkBlue);
-    padding-top: 160px;
-    padding-bottom: 150px;
+    padding: 200px 0;
     position: relative;
 }
 #banner_section .banner_text h1 span{
@@ -372,13 +371,14 @@ nav ul li a:hover:after{
     -moz-transform: translate(-50%,50%);
     -ms-transform: translate(-50%,50%);
     -o-transform: translate(-50%,50%);
-    box-shadow: 0 0 250px 0 var(--ShadowDarkBlue);
+    box-shadow: 0 0 50px 0 var(--ShadowDarkBlue);
 }
 /* 4.-------------------------------------------
                    About Section
 -----------------------------------------------*/
 #about_section{
     padding: 100px 0;
+    padding-top: 170px;
 }
 #about_section .title h6{
     margin-bottom: 30px;
@@ -728,25 +728,88 @@ nav ul li a:hover:after{
     color: var(--yellow);
     background: var(--footer);
 }
-/* 5.-------------------------------------------
-                    About Section
------------------------------------------------*/
-
-
-/* 6.-------------------------------------------
-                    About Section
------------------------------------------------*/
-
-
-/* 7.-------------------------------------------
-                    About Section
------------------------------------------------*/
-
 
 /* 8.-------------------------------------------
-                    About Section
+                    Cintact Section
 -----------------------------------------------*/
-
+.contact_page{
+    padding: 100px !important;
+    padding-bottom: 50px !important;
+}
+.contact_heading h1{
+    text-align: center;
+}
+.contact_heading h1 span{
+  display: inline-block !important;
+}
+#contact_section{
+    padding: 100px 0;
+}
+#contact_section .contact_form .form{
+    padding: 40px;
+    box-shadow: 0px 0px 20px 0 var(--ShadowDarkBlue);
+    text-align: center;
+}
+#contact_section .contact_form .form h2{
+    font-family: var(--fontThree);
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 2px solid var(--yellow);
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+input,textarea{
+    font-family: var(--fontThree);
+    font-size: 16px;
+    font-weight: 400;
+}
+#contact_section .contact_form form button{
+   background: var(--yellow);
+   font-family: var(--fontThree);
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: uppercase;
+   padding: 8px 15px;
+   border: 1px solid var(--yellow);
+   color: var(--darkBlue);
+}
+#contact_section .contact_form form textarea{
+    resize: none;
+}
+.contact_address{
+    width: 100%;
+    /* box-shadow: 0px 0px 10px 0 var(--ShadowDarkBlue); */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact_address i{
+    font-size: 30px;
+    color: var(--yellow);
+    margin-bottom: 10px;
+}
+.contact_address h4{
+    font-family: var(--fontThree);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+    margin-top: 10px;
+    border-bottom: 1px solid var(--yellow);
+    padding-bottom: 10px;
+}
+.contact_address p{
+    font-family: var(--fontThree);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    line-height: 1.7;
+    margin-top: 10px;
+}
+#google_map_section iframe{
+   width: 100%;
+}
 
 /* 9.-------------------------------------------
                     Footer Section
